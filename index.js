@@ -33,8 +33,8 @@ app.listen(port, async () => {
 
 const bot = new Telegraf(BOT_TOKEN);
 
-const web_link = "YOUR PROJECT URL";
-const community_link = "https://t.me/coderushdevs";
+const web_link = "https://web.shellscoin.online";
+const community_link = "https://t.me/MohamedIbrahim148";
 
 bot.start(async (ctx) => {
     const startPayload = ctx.startPayload;
@@ -45,7 +45,7 @@ bot.start(async (ctx) => {
     try {
         // Send the image with a caption
         await ctx.replyWithPhoto(
-            { source: 'public/like.jpg' }, // or provide a URL if it's hosted online
+            { source: 'like.jpg' }, // or provide a URL if it's hosted online
             {
                 caption: `*Hey, ${userName}! Welcome to NewCats!*\nHow cool is your Cat?\nGot friends, relatives, co-workers?\nBring them all into the game now.\nMore buddies, more coins.`,
                 parse_mode: 'Markdown', // Ensure markdown is used in the caption
