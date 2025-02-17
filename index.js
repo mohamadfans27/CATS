@@ -33,7 +33,7 @@ app.listen(port, async () => {
 
 const bot = new Telegraf(BOT_TOKEN);
 
-const web_link = "https://web.shellscoin.online";
+const web_link = "https://shells.netlify.app";
 const community_link = "https://t.me/MohamedIbrahim148";
 
 bot.start(async (ctx) => {
