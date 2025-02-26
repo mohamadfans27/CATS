@@ -47,7 +47,7 @@ bot.start(async (ctx) => {
         await ctx.replyWithPhoto(
             { source: 'like.jpg' }, // or provide a URL if it's hosted online
             {
-                caption: `*Hey, ${userName}! Welcome to NewCats!*\nHow cool is your Cat?\nGot friends, relatives, co-workers?\nBring them all into the game now.\nMore buddies, more coins.`,
+                caption: `*Hey, ${userName}!👋Welcome to the $shells coin project *\Do you breathe in the depths of the sea mst crab searching for $shells coin?\.`,
                 parse_mode: 'Markdown', // Ensure markdown is used in the caption
                 reply_markup: {
                     inline_keyboard: [
