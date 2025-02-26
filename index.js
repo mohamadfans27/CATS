@@ -45,7 +45,7 @@ bot.start(async (ctx) => {
     try {
         // Send the image with a caption
         await ctx.replyWithPhoto(
-            { source: 'like.jpg' }, // or provide a URL if it's hosted online
+            { source: 'IMG_20250226_073819_794.jpg' }, // or provide a URL if it's hosted online
             {
                 caption: `*Hey, ${userName}!👋Welcome to the $shells coin project *\Do you breathe in the depths of the sea mst crab searching for $shells coin?\.`,
                 parse_mode: 'Markdown', // Ensure markdown is used in the caption
