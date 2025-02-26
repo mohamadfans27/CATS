@@ -47,7 +47,7 @@ bot.start(async (ctx) => {
         await ctx.replyWithPhoto(
             { source: 'IMG_20250226_073819_794.jpg' }, // or provide a URL if it's hosted online
             {
-                caption: `*Hey, ${userName}!👋Welcome to the $shells coin project *\Do you breathe in the depths of the sea mst crab searching for $shells coin?\.`,
+                caption: `*Hey, ${userName}!👋Welcome to the $shells coin project *\🚀Do you breathe in the depths of the sea mst crab searching for $shells coin?\.`,
                 parse_mode: 'Markdown', // Ensure markdown is used in the caption
                 reply_markup: {
                     inline_keyboard: [
